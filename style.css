@@ -457,24 +457,25 @@ footer{
 footer > .policy{
     position: absolute;
     display: flex;
-    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
     align-items: center;
     bottom: 0;
     height: 60px;
     border-top: 1px solid #333;
     background-color: #000;
-    width: 100%;
+    width: 90%;
 }
 footer > .policy > p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 14px;
     color: #bbb;
-    margin: 0px 20px 0px 20px;
+    margin: 0;
 }
 footer > .bigmediafooter > .bigmedia{
     list-style: none;
-    margin: 30px 60px 70px 20px;
+    margin: 30px 80px 70px 0px;
     padding: 0;
 }
 footer > .bigmediafooter >  .bigmedia > li{
@@ -543,7 +544,7 @@ footer > .bigmediafooter >  .bigmedia > .liTitle:hover{
 }
 @media (min-width: 1200px) {
     .post{
-        overflow-x: hidden;
+        overflow-x: visible;
         justify-content: center;
     }
 }
@@ -631,6 +632,7 @@ footer > .bigmediafooter >  .bigmedia > .liTitle:hover{
     }
     .mainNav > p{
         width: 90%;
+        font-size: 18px;
     }
     .mainNav > h2{
         width: 90%;
@@ -666,7 +668,7 @@ footer > .bigmediafooter >  .bigmedia > .liTitle:hover{
         width: 90%;
 }
 footer > .policy > p{
-    font-size: 8px;
+    font-size: 10px;
 }
 }
 @media (max-width:500px) {
